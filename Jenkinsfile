@@ -7,5 +7,10 @@ pipeline{
                                 sh 'echo Hello World'
                         }
                 }
+		stage('Tesing'){
+			steps{
+				sh 'echo Testing Done'
+			}
+		}
         }
 }
